@@ -1,0 +1,101 @@
+[project]
+name = "concept-drift"
+version = "0.1.0"
+description = "Wasserstein-distance concept drift detection for streaming and time-series data"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Paolo Grazieschi" },
+    { name = "Romeo Silvestri" },
+    { name = "Massimo Vecchio" },
+    { name = "Mattia Antonini" },
+    { name = "Fabio Antonelli" },
+]
+keywords = [
+    "concept-drift",
+    "data-streams",
+    "drift-detection",
+    "machine-learning",
+    "wasserstein-distance",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=2.4.1",
+    "river>=0.23",
+    "scipy>=1.17.0",
+    "typing-extensions>=4.15.0",
+]
+
+[project.optional-dependencies]
+research = [
+    "joblib>=1.5.3",
+    "optuna>=4.9.0",
+    "pandas>=2.3.3",
+    "plotly>=6.1.1",
+    "scikit-learn>=1.8.0",
+    "xgboost>=3.2.0",
+]
+figures = [
+    "matplotlib>=3.10.0",
+]
+notebook = [
+    "bokeh>=3.8.2",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "kaleido>=1.2.0",
+    "nbformat>=5.10.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift"
+Repository = "https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift"
+Issues = "https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.0",
+    "ruff>=0.12.0",
+    "twine>=6.1.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["wasserstein_score"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/LICENSE",
+    "/README.md",
+    "/pyproject.toml",
+    "/wasserstein_score",
+]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --strict-config"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["wasserstein_score"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

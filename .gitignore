@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+.eggs/
+
+# Test, coverage, type-checker, and linter caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Data and cache
+data/
+.cache.sqlite
+*.sqlite-journal
+tmp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Paper drafts kept local-only
+work/
+results/
+results_review/
