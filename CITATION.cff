@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below and cite
+  the accompanying paper listed in the README.
+type: software
+title: calibrated-wasserstein-drift
+version: 0.1.0
+authors:
+  - family-names: Grazieschi
+    given-names: Paolo
+  - family-names: Silvestri
+    given-names: Romeo
+  - family-names: Vecchio
+    given-names: Massimo
+  - family-names: Antonini
+    given-names: Mattia
+  - family-names: Antonelli
+    given-names: Fabio
+abstract: >-
+  Companion code for "Residual Drift Detectors under a Common False-Alarm
+  Budget: A Calibrated Comparison with a Wasserstein Detector". Includes a
+  Wasserstein-distance drift detector, synthetic calibration and benchmark
+  workflows, and a soil-moisture upstream-change case study.
+repository-code: https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift
+url: https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift
+license: BSD-3-Clause
+keywords:
+  - concept drift
+  - drift detection
+  - data streams
+  - machine learning
+  - Wasserstein distance
