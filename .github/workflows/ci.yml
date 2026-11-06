@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master, publication]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python-version }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+      - name: Install project and development dependencies
+        run: uv sync --locked --extra research --extra figures --group dev
+      - name: Lint
+        run: uv run ruff check .
+      - name: Test
+        run: uv run pytest --cov=wasserstein_score --cov-report=term-missing
+
+  package:
+    name: Build and inspect package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.13"
+          enable-cache: true
+      - name: Build distributions
+        run: uv build
+      - name: Check package metadata
+        run: uvx twine check dist/*
+      - name: Verify wheel contents
+        run: unzip -l dist/*.whl
+      - name: Install wheel in an isolated environment
+        shell: bash
+        run: |
+          uv venv .package-check
+          uv pip install --python .package-check/bin/python dist/*.whl
+          .package-check/bin/python -c "from wasserstein_score import WassersteinDriftDetector; print(WassersteinDriftDetector)"
