@@ -79,6 +79,7 @@ packages = ["wasserstein_score"]
 
 [tool.hatch.build.targets.sdist]
 include = [
+    "/CITATION.cff",
     "/LICENSE",
     "/README.md",
     "/pyproject.toml",
