@@ -1,0 +1,441 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{douaioui2024machine}
+K.~Douaioui, R.~Oucheikh, O.~Benmoussa, C.~Mabrouki, Machine learning and deep
+  learning models for demand forecasting in supply chain management: A critical
+  review, Applied System Innovation 7~(5) (2024) 93.
+\newblock \href {https://doi.org/10.3390/asi7050093}
+  {\path{doi:10.3390/asi7050093}}.
+
+\bibitem{Ge2017DataMA}
+Z.~Ge, Z.~Song, S.~X. Ding, B.~Huang, Data mining and analytics in the process
+  industry: The role of machine learning, IEEE Access 5 (2017) 20590--20616.
+\newblock \href {https://doi.org/10.1109/access.2017.2756872}
+  {\path{doi:10.1109/access.2017.2756872}}.
+
+\bibitem{grazieschi2025soilcast}
+P.~Grazieschi, M.~Vecchio, M.~Pincheira, F.~Antonelli, {Soilcast}: A multitask
+  encoder-decoder {AI} model for precision agriculture, in: Proceedings of the
+  40th ACM/SIGAPP Symposium on Applied Computing, Association for Computing
+  Machinery, 2025, pp. 866--873.
+\newblock \href {https://doi.org/10.1145/3672608.3707808}
+  {\path{doi:10.1145/3672608.3707808}}.
+
+\bibitem{antonini2022tiny}
+M.~Antonini, M.~Pincheira, M.~Vecchio, F.~Antonelli, {Tiny-MLOps}: A framework
+  for orchestrating {ML} applications at the far edge of {IoT} systems, in:
+  2022 IEEE International Conference on Evolving and Adaptive Intelligent
+  Systems (EAIS), IEEE, 2022, pp. 1--8.
+\newblock \href {https://doi.org/10.1109/eais51927.2022.9787703}
+  {\path{doi:10.1109/eais51927.2022.9787703}}.
+
+\bibitem{gama2004}
+J.~Gama, P.~Medas, G.~Castillo, P.~Rodrigues, Learning with drift detection,
+  in: A.~L.~C. Bazzan, S.~Labidi (Eds.), Advances in Artificial Intelligence --
+  SBIA 2004, Vol. 3171 of Lecture Notes in Computer Science, Springer, Berlin,
+  Heidelberg, 2004, pp. 286--295.
+\newblock \href {https://doi.org/10.1007/978-3-540-28645-5_29}
+  {\path{doi:10.1007/978-3-540-28645-5_29}}.
+
+\bibitem{webb2016}
+G.~I. Webb, R.~Hyde, H.~Cao, H.~L. Nguyen, F.~Petitjean, Characterizing concept
+  drift, Data Mining and Knowledge Discovery 30~(4) (2016) 964--994.
+\newblock \href {https://doi.org/10.1007/s10618-015-0448-4}
+  {\path{doi:10.1007/s10618-015-0448-4}}.
+
+\bibitem{lu2018}
+J.~Lu, A.~Liu, F.~Dong, F.~Gu, J.~Gama, G.~Zhang, Learning under concept drift:
+  A review, IEEE Transactions on Knowledge and Data Engineering 31~(12) (2019)
+  2346--2363.
+\newblock \href {https://doi.org/10.1109/tkde.2018.2876857}
+  {\path{doi:10.1109/tkde.2018.2876857}}.
+
+\bibitem{hovakimyan2024}
+G.~Hovakimyan, J.~M. Bravo, Evolving strategies in machine learning: A
+  systematic review of concept drift detection, Information 15~(12) (2024) 786.
+\newblock \href {https://doi.org/10.3390/info15120786}
+  {\path{doi:10.3390/info15120786}}.
+
+\bibitem{QuioneroCandela2009DatasetSI}
+J.~Qui{\~n}onero-Candela, M.~Sugiyama, A.~Schwaighofer, N.~D. Lawrence (Eds.),
+  Dataset Shift in Machine Learning, MIT Press, Cambridge, MA, 2009.
+\newblock \href {https://doi.org/10.7551/mitpress/9780262170055.001.0001}
+  {\path{doi:10.7551/mitpress/9780262170055.001.0001}}.
+
+\bibitem{nishida2007stepd}
+K.~Nishida, K.~Yamauchi, Detecting concept drift using statistical testing, in:
+  V.~Corruble, M.~Takeda, E.~Suzuki (Eds.), Discovery Science, Vol. 4755 of
+  Lecture Notes in Computer Science, Springer, 2007, pp. 264--269.
+\newblock \href {https://doi.org/10.1007/978-3-540-75488-6_27}
+  {\path{doi:10.1007/978-3-540-75488-6_27}}.
+
+\bibitem{pesaranghader2016fhddm}
+A.~Pesaranghader, H.~L. Viktor, Fast hoeffding drift detection method for
+  evolving data streams, in: P.~Frasconi, N.~Landwehr, G.~Manco, J.~Vreeken
+  (Eds.), Machine Learning and Knowledge Discovery in Databases, Vol. 9852 of
+  Lecture Notes in Computer Science, Springer, 2016, pp. 96--111.
+\newblock \href {https://doi.org/10.1007/978-3-319-46227-1_7}
+  {\path{doi:10.1007/978-3-319-46227-1_7}}.
+
+\bibitem{frias2015hddm}
+I.~Fr{\'\i}as-Blanco, J.~del Campo-{\'A}vila, G.~Ramos-Jim{\'e}nez,
+  R.~Morales-Bueno, A.~Ortiz-D{\'\i}az, Y.~Caballero-Mota, Online and
+  non-parametric drift detection methods based on {Hoeffding}'s bounds, IEEE
+  Transactions on Knowledge and Data Engineering 27~(3) (2015) 810--823.
+\newblock \href {https://doi.org/10.1109/TKDE.2014.2345382}
+  {\path{doi:10.1109/TKDE.2014.2345382}}.
+
+\bibitem{gama2014survey}
+J.~Gama, I.~{\v{Z}}liobait{\.{e}}, A.~Bifet, M.~Pechenizkiy, A.~Bouchachia, A
+  survey on concept drift adaptation, ACM Computing Surveys 46~(4) (2014)
+  44:1--44:37.
+\newblock \href {https://doi.org/10.1145/2523813} {\path{doi:10.1145/2523813}}.
+
+\bibitem{bifet2007}
+A.~Bifet, R.~Gavald{\`a}, Learning from time-changing data with adaptive
+  windowing, in: Proceedings of the 2007 SIAM International Conference on Data
+  Mining, Society for Industrial and Applied Mathematics, 2007, pp. 443--448.
+\newblock \href {https://doi.org/10.1137/1.9781611972771.42}
+  {\path{doi:10.1137/1.9781611972771.42}}.
+
+\bibitem{raab2020}
+C.~Raab, M.~Heusinger, F.-M. Schleif, Reactive soft prototype computing for
+  concept drift streams, Neurocomputing 416 (2020) 340--351.
+\newblock \href {https://doi.org/10.1016/j.neucom.2019.11.111}
+  {\path{doi:10.1016/j.neucom.2019.11.111}}.
+
+\bibitem{page1954}
+E.~S. Page, Continuous inspection schemes, Biometrika 41~(1--2) (1954)
+  100--115.
+\newblock \href {https://doi.org/10.1093/biomet/41.1-2.100}
+  {\path{doi:10.1093/biomet/41.1-2.100}}.
+
+\bibitem{hinkley1971}
+D.~V. Hinkley, Inference about the change-point from cumulative sum tests,
+  Biometrika 58~(3) (1971) 509--523.
+\newblock \href {https://doi.org/10.1093/biomet/58.3.509}
+  {\path{doi:10.1093/biomet/58.3.509}}.
+
+\bibitem{massey1951kolmogorov}
+F.~J. Massey, Jr., The {Kolmogorov-Smirnov} test for goodness of fit, Journal
+  of the American Statistical Association 46~(253) (1951) 68--78.
+\newblock \href {https://doi.org/10.1080/01621459.1951.10500769}
+  {\path{doi:10.1080/01621459.1951.10500769}}.
+
+\bibitem{montiel2021}
+J.~Montiel, M.~Halford, S.~M. Mastelini, G.~Bolmier, R.~Sourty, R.~Vaysse,
+  A.~Zouitine, H.~M. Gomes, J.~Read, T.~Abdessalem, A.~Bifet,
+  \href{https://jmlr.org/papers/v22/20-1380.html}{{River}: machine learning for
+  streaming data in {Python}}, Journal of Machine Learning Research 22~(110)
+  (2021) 1--8.
+\newline\urlprefix\url{https://jmlr.org/papers/v22/20-1380.html}
+
+\bibitem{kifer2004detecting}
+D.~Kifer, S.~Ben-David, J.~Gehrke, Detecting change in data streams, in:
+  Proceedings of the 30th International Conference on Very Large Data Bases,
+  2004, pp. 180--191.
+\newblock \href {https://doi.org/10.1016/B978-012088469-8.50019-X}
+  {\path{doi:10.1016/B978-012088469-8.50019-X}}.
+
+\bibitem{dosreis2016fast}
+D.~M. dos Reis, P.~Flach, S.~Matwin, G.~Batista, Fast unsupervised online drift
+  detection using incremental {K}olmogorov-{S}mirnov test, in: Proceedings of
+  the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data
+  Mining, Association for Computing Machinery, 2016, pp. 1545--1554.
+\newblock \href {https://doi.org/10.1145/2939672.2939836}
+  {\path{doi:10.1145/2939672.2939836}}.
+
+\bibitem{roberts1959control}
+S.~W. Roberts, Control chart tests based on geometric moving averages,
+  Technometrics 1~(3) (1959) 239--250.
+\newblock \href {https://doi.org/10.1080/00401706.1959.10489860}
+  {\path{doi:10.1080/00401706.1959.10489860}}.
+
+\bibitem{montgomery2019introduction}
+D.~C. Montgomery,
+  \href{https://www.wiley.com/en-sg/introduction-to-statistical-quality-control-8th-edition-p-9781119399308}{Introduction
+  to Statistical Quality Control}, eighth Edition, Wiley, Hoboken, NJ, 2019.
+\newline\urlprefix\url{https://www.wiley.com/en-sg/introduction-to-statistical-quality-control-8th-edition-p-9781119399308}
+
+\bibitem{ross2012ewma}
+G.~J. Ross, N.~M. Adams, D.~K. Tasoulis, D.~J. Hand, Exponentially weighted
+  moving average charts for detecting concept drift, Pattern Recognition
+  Letters 33~(2) (2012) 191--198.
+\newblock \href {https://doi.org/10.1016/j.patrec.2011.08.019}
+  {\path{doi:10.1016/j.patrec.2011.08.019}}.
+
+\bibitem{podkopaev2022tracking}
+A.~Podkopaev, A.~Ramdas,
+  \href{https://openreview.net/forum?id=Ro_zAjZppv}{Tracking the risk of a
+  deployed model and detecting harmful distribution shifts}, in: International
+  Conference on Learning Representations (ICLR), 2022.
+\newline\urlprefix\url{https://openreview.net/forum?id=Ro_zAjZppv}
+
+\bibitem{bifet2013cdmoa}
+A.~Bifet, J.~Read, B.~Pfahringer, G.~Holmes, I.~{\v{Z}}liobait{\.{e}},
+  {CD-MOA}: Change detection framework for massive online analysis, in:
+  Advances in Intelligent Data Analysis XII, Vol. 8207 of Lecture Notes in
+  Computer Science, Springer, Berlin, Heidelberg, 2013, pp. 92--103.
+\newblock \href {https://doi.org/10.1007/978-3-642-41398-8_9}
+  {\path{doi:10.1007/978-3-642-41398-8_9}}.
+
+\bibitem{gonccalves2014comparative}
+P.~M. Gon{\c{c}}alves, Jr., S.~G.~T. de~Carvalho~Santos, R.~S.~M. Barros,
+  D.~C.~L. Vieira, A comparative study on concept drift detectors, Expert
+  Systems with Applications 41~(18) (2014) 8144--8156.
+\newblock \href {https://doi.org/10.1016/j.eswa.2014.07.019}
+  {\path{doi:10.1016/j.eswa.2014.07.019}}.
+
+\bibitem{barros2018large}
+R.~S.~M. Barros, S.~G. T.~C. Santos, A large-scale comparison of concept drift
+  detectors, Information Sciences 451--452 (2018) 348--370.
+\newblock \href {https://doi.org/10.1016/j.ins.2018.04.014}
+  {\path{doi:10.1016/j.ins.2018.04.014}}.
+
+\bibitem{poenaru2022concept}
+L.~Poenaru-Olaru, L.~Cruz, A.~van Deursen, J.~S. Rellermeyer, Are concept drift
+  detectors reliable alarming systems? - a comparative study, in: 2022 IEEE
+  International Conference on Big Data (Big Data), IEEE, 2022, pp. 3364--3373.
+\newblock \href {https://doi.org/10.1109/bigdata55660.2022.10020292}
+  {\path{doi:10.1109/bigdata55660.2022.10020292}}.
+
+\bibitem{ross2012cpm}
+G.~J. Ross, N.~M. Adams, Two nonparametric control charts for detecting
+  arbitrary distribution changes, Journal of Quality Technology 44~(2) (2012)
+  102--116.
+\newblock \href {https://doi.org/10.1080/00224065.2012.11917887}
+  {\path{doi:10.1080/00224065.2012.11917887}}.
+
+\bibitem{ross2015cpm}
+G.~J. Ross, Parametric and nonparametric sequential change detection in {R}:
+  The {cpm} package, Journal of Statistical Software 66~(3) (2015) 1--20.
+\newblock \href {https://doi.org/10.18637/jss.v066.i03}
+  {\path{doi:10.18637/jss.v066.i03}}.
+
+\bibitem{cobb2022sequential}
+O.~Cobb, A.~Van~Looveren, J.~Klaise,
+  \href{https://proceedings.mlr.press/v151/cobb22a.html}{Sequential
+  multivariate change detection with calibrated and memoryless false detection
+  rates}, in: Proceedings of the 25th International Conference on Artificial
+  Intelligence and Statistics, Vol. 151 of Proceedings of Machine Learning
+  Research, PMLR, 2022, pp. 226--239.
+\newline\urlprefix\url{https://proceedings.mlr.press/v151/cobb22a.html}
+
+\bibitem{vovk2003testing}
+V.~Vovk, I.~Nouretdinov, A.~Gammerman,
+  \href{https://m.aaai.org/Papers/ICML/2003/ICML03-100.pdf}{Testing
+  exchangeability on-line}, in: Proceedings of the 20th International
+  Conference on Machine Learning (ICML), 2003, pp. 768--775.
+\newline\urlprefix\url{https://m.aaai.org/Papers/ICML/2003/ICML03-100.pdf}
+
+\bibitem{volkhonskiy2017inductive}
+D.~Volkhonskiy, E.~Burnaev, I.~Nouretdinov, A.~Gammerman, V.~Vovk,
+  \href{https://proceedings.mlr.press/v60/volkhonskiy17a.html}{Inductive
+  conformal martingales for change-point detection}, in: Proceedings of the
+  Sixth Workshop on Conformal and Probabilistic Prediction and Applications
+  (COPA), Vol.~60 of Proceedings of Machine Learning Research, PMLR, 2017, pp.
+  132--153.
+\newline\urlprefix\url{https://proceedings.mlr.press/v60/volkhonskiy17a.html}
+
+\bibitem{gretton2012kernel}
+A.~Gretton, K.~M. Borgwardt, M.~J. Rasch, B.~Sch{\"o}lkopf, A.~Smola,
+  \href{https://jmlr.org/papers/v13/gretton12a.html}{A kernel two-sample test},
+  Journal of Machine Learning Research 13~(25) (2012) 723--773.
+\newline\urlprefix\url{https://jmlr.org/papers/v13/gretton12a.html}
+
+\bibitem{rabanser2019failing}
+S.~Rabanser, S.~G{\"u}nnemann, Z.~C. Lipton,
+  \href{https://proceedings.neurips.cc/paper/2019/hash/846c260d715e5b854ffad5f70a516c88-Abstract.html}{Failing
+  loudly: An empirical study of methods for detecting dataset shift}, in:
+  Advances in Neural Information Processing Systems, Vol.~32, Curran
+  Associates, Inc., 2019, pp. 1396--1408.
+\newline\urlprefix\url{https://proceedings.neurips.cc/paper/2019/hash/846c260d715e5b854ffad5f70a516c88-Abstract.html}
+
+\bibitem{lukats2025benchmark}
+D.~Lukats, O.~Zielinski, A.~Hahn, F.~Stahl, A benchmark and survey of fully
+  unsupervised concept drift detectors on real-world data streams,
+  International Journal of Data Science and Analytics 19~(1) (2025) 1--31.
+\newblock \href {https://doi.org/10.1007/s41060-024-00620-y}
+  {\path{doi:10.1007/s41060-024-00620-y}}.
+
+\bibitem{zhao2024imbalancedcluster}
+M.~Zhao, Y.~Zhang, Y.~Ji, Y.~Lu, Unsupervised concept drift detection via
+  imbalanced cluster discriminator learning, in: Pattern Recognition and
+  Computer Vision: PRCV 2023, Proceedings, Part III, Vol. 14427 of Lecture
+  Notes in Computer Science, Springer, 2024, pp. 31--43.
+\newblock \href {https://doi.org/10.1007/978-981-99-8435-0_3}
+  {\path{doi:10.1007/978-981-99-8435-0_3}}.
+
+\bibitem{zhang2026unbiasedcluster}
+Y.~Zhang, Z.~Huang, M.~Zhao, C.~Zhang, Y.~Lu, Y.~Ji, F.~Gu, A.~Zeng, Learning
+  unbiased cluster descriptors for interpretable imbalanced concept drift
+  detection, IEEE Transactions on Emerging Topics in Computational Intelligence
+  10~(1) (2026) 721--734.
+\newblock \href {https://doi.org/10.1109/TETCI.2025.3598327}
+  {\path{doi:10.1109/TETCI.2025.3598327}}.
+
+\bibitem{zhao2022heterogeneous}
+L.~Zhao, Y.~Zhang, Y.~Ji, A.~Zeng, F.~Gu, X.~Luo, Heterogeneous drift learning:
+  Classification of mix-attribute data with concept drifts, in: 2022 IEEE 9th
+  International Conference on Data Science and Advanced Analytics (DSAA), IEEE,
+  2022, pp. 1--10.
+\newblock \href {https://doi.org/10.1109/DSAA54385.2022.10032342}
+  {\path{doi:10.1109/DSAA54385.2022.10032342}}.
+
+\bibitem{wang2023model}
+P.~Wang, N.~Jin, D.~Davies, W.~L. Woo, Model-centric transfer learning
+  framework for concept drift detection, Knowledge-Based Systems 275 (2023)
+  110705.
+\newblock \href {https://doi.org/10.1016/j.knosys.2023.110705}
+  {\path{doi:10.1016/j.knosys.2023.110705}}.
+
+\bibitem{shang2025novelty}
+D.~Shang, G.~Zhang, J.~Lu, Novelty-aware concept drift detection for neural
+  networks, Neurocomputing 617 (2025) 128933.
+\newblock \href {https://doi.org/10.1016/j.neucom.2024.128933}
+  {\path{doi:10.1016/j.neucom.2024.128933}}.
+
+\bibitem{villani2008}
+C.~Villani, Optimal Transport: Old and New, Vol. 338 of Grundlehren der
+  Mathematischen Wissenschaften, Springer Berlin Heidelberg, 2009.
+\newblock \href {https://doi.org/10.1007/978-3-540-71050-9}
+  {\path{doi:10.1007/978-3-540-71050-9}}.
+
+\bibitem{tao2019}
+Y.~Tao, C.~Li, Z.~Liang, H.~Yang, J.~Xu, {Wasserstein} distance learns domain
+  invariant feature representations for drift compensation of e-nose, Sensors
+  19~(17) (2019) 3703.
+\newblock \href {https://doi.org/10.3390/s19173703}
+  {\path{doi:10.3390/s19173703}}.
+
+\bibitem{lin2025}
+C.-Y. Lin, T.-L.~B. Tseng, T.-H. Tsai, A multi-machine and multi-modal drift
+  detection ({M2D2}) framework for semiconductor manufacturing, Applied
+  Sciences 15~(12) (2025) 6500.
+\newblock \href {https://doi.org/10.3390/app15126500}
+  {\path{doi:10.3390/app15126500}}.
+
+\bibitem{muller2024}
+R.~M{\"u}ller, M.~Abdelaal, D.~Stjelja, Open-source drift detection tools in
+  action: Insights from two use cases, in: R.~Wrembel, S.~Chiusano, G.~Kotsis,
+  A.~M. Tjoa, I.~Khalil (Eds.), Big Data Analytics and Knowledge Discovery,
+  Vol. 14912 of Lecture Notes in Computer Science, Springer, 2024, pp.
+  346--352.
+\newblock \href {https://doi.org/10.1007/978-3-031-68323-7_29}
+  {\path{doi:10.1007/978-3-031-68323-7_29}}.
+
+\bibitem{faber2021watch}
+K.~Faber, R.~Corizzo, B.~Sniezynski, M.~Baron, N.~Japkowicz, {WATCH}:
+  {W}asserstein change point detection for high-dimensional time series data,
+  in: 2021 IEEE International Conference on Big Data (Big Data), IEEE, 2021,
+  pp. 4450--4459.
+\newblock \href {https://doi.org/10.1109/BigData52589.2021.9671962}
+  {\path{doi:10.1109/BigData52589.2021.9671962}}.
+
+\bibitem{laha2021optimal}
+A.~K. Laha, S.~Verma,
+  \href{https://www.iima.ac.in/sites/default/files/rnpfiles/16464727852021-09-01.pdf}{Optimal
+  transport based drift detection for sensor streams: Method and applications
+  in transportation}, IIMA Working Paper WP 2021-09-01, Indian Institute of
+  Management Ahmedabad (2021).
+\newline\urlprefix\url{https://www.iima.ac.in/sites/default/files/rnpfiles/16464727852021-09-01.pdf}
+
+\bibitem{wang2026dualchannel}
+B.~Wang, S.~Sun, J.~Wang, Y.~Tang, Robust outlier detection and low-latency
+  concept drift detection for data stream regression: A dual-channel
+  architecture, Concurrency and Computation: Practice and Experience 38~(9)
+  (2026) e70730.
+\newblock \href {https://doi.org/10.1002/cpe.70730}
+  {\path{doi:10.1002/cpe.70730}}.
+
+\bibitem{bobkov2019one}
+S.~Bobkov, M.~Ledoux, One-dimensional empirical measures, order statistics, and
+  {Kantorovich} transport distances, Memoirs of the American Mathematical
+  Society 261~(1259) (2019).
+\newblock \href {https://doi.org/10.1090/memo/1259}
+  {\path{doi:10.1090/memo/1259}}.
+
+\bibitem{szekely2013energy}
+G.~J. Sz{\'e}kely, M.~L. Rizzo, Energy statistics: A class of statistics based
+  on distances, Journal of Statistical Planning and Inference 143~(8) (2013)
+  1249--1272.
+\newblock \href {https://doi.org/10.1016/j.jspi.2013.03.018}
+  {\path{doi:10.1016/j.jspi.2013.03.018}}.
+
+\bibitem{tukey1977exploratory}
+J.~W. Tukey,
+  \href{https://discover.library.unt.edu/catalog/b1229161}{Exploratory Data
+  Analysis}, Addison-Wesley, Reading, MA, 1977.
+\newline\urlprefix\url{https://discover.library.unt.edu/catalog/b1229161}
+
+\bibitem{chen2016}
+T.~Chen, C.~Guestrin, {XGBoost}: A scalable tree boosting system, in:
+  Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining, Association for Computing Machinery, 2016, pp.
+  785--794.
+\newblock \href {https://doi.org/10.1145/2939672.2939785}
+  {\path{doi:10.1145/2939672.2939785}}.
+
+\bibitem{friedman1991multivariate}
+J.~H. Friedman, Multivariate adaptive regression splines, The Annals of
+  Statistics 19~(1) (1991) 1--67.
+\newblock \href {https://doi.org/10.1214/aos/1176347963}
+  {\path{doi:10.1214/aos/1176347963}}.
+
+\bibitem{ikonomovska2011learning}
+E.~Ikonomovska, J.~Gama, S.~D{\v{z}}eroski, Learning model trees from evolving
+  data streams, Data Mining and Knowledge Discovery 23~(1) (2011) 128--168.
+\newblock \href {https://doi.org/10.1007/s10618-010-0201-y}
+  {\path{doi:10.1007/s10618-010-0201-y}}.
+
+\bibitem{akiba2019optuna}
+T.~Akiba, S.~Sano, T.~Yanase, T.~Ohta, M.~Koyama, {Optuna}: A next-generation
+  hyperparameter optimization framework, in: Proceedings of the 25th ACM SIGKDD
+  International Conference on Knowledge Discovery \& Data Mining, Association
+  for Computing Machinery, 2019, pp. 2623--2631.
+\newblock \href {https://doi.org/10.1145/3292500.3330701}
+  {\path{doi:10.1145/3292500.3330701}}.
+
+\bibitem{bergstra2011algorithms}
+J.~Bergstra, R.~Bardenet, Y.~Bengio, B.~K{\'e}gl,
+  \href{https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization}{Algorithms
+  for hyper-parameter optimization}, in: Advances in Neural Information
+  Processing Systems, Vol.~24, Curran Associates, Inc., 2011, pp. 2546--2554.
+\newline\urlprefix\url{https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization}
+
+\bibitem{wilson1927probable}
+E.~B. Wilson, Probable inference, the law of succession, and statistical
+  inference, Journal of the American Statistical Association 22~(158) (1927)
+  209--212.
+\newblock \href {https://doi.org/10.1080/01621459.1927.10502953}
+  {\path{doi:10.1080/01621459.1927.10502953}}.
+
+\bibitem{wilcoxon1945individual}
+F.~Wilcoxon, Individual comparisons by ranking methods, Biometrics Bulletin
+  1~(6) (1945) 80--83.
+\newblock \href {https://doi.org/10.2307/3001968} {\path{doi:10.2307/3001968}}.
+
+\bibitem{mcnemar1947note}
+Q.~McNemar, Note on the sampling error of the difference between correlated
+  proportions or percentages, Psychometrika 12~(2) (1947) 153--157.
+\newblock \href {https://doi.org/10.1007/bf02295996}
+  {\path{doi:10.1007/bf02295996}}.
+
+\bibitem{holm1979simple}
+S.~Holm, \href{https://www.jstor.org/stable/4615733}{A simple sequentially
+  rejective multiple test procedure}, Scandinavian Journal of Statistics 6~(2)
+  (1979) 65--70.
+\newline\urlprefix\url{https://www.jstor.org/stable/4615733}
+
+\bibitem{demvsar2006statistical}
+J.~Dem{\v{s}}ar, \href{https://jmlr.org/papers/v7/demsar06a.html}{Statistical
+  comparisons of classifiers over multiple data sets}, Journal of Machine
+  Learning Research 7~(1) (2006) 1--30.
+\newline\urlprefix\url{https://jmlr.org/papers/v7/demsar06a.html}
+
+\end{thebibliography}

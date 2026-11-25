@@ -1,0 +1,61 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{0.6em}
+
+\signature{Paolo Grazieschi\\
+OpenIoT Research Unit, Fondazione Bruno Kessler\\
+Via Sommarive 18, 38123 Trento, Italy\\
+\href{mailto:pgrazieschi@fbk.eu}{pgrazieschi@fbk.eu}\\
+On behalf of all authors}
+
+\address{Paolo Grazieschi\\
+OpenIoT Research Unit\\
+Fondazione Bruno Kessler\\
+Via Sommarive 18\\
+38123 Trento, Italy}
+
+\begin{document}
+% Right-align the closing/signature block as a unit (matching the return
+% address), sized to its longest line so no line wraps.
+\newlength{\sigwidth}
+\settowidth{\sigwidth}{OpenIoT Research Unit, Fondazione Bruno Kessler}
+\setlength{\longindentation}{\dimexpr\textwidth-\sigwidth\relax}
+\setlength{\indentedwidth}{\sigwidth}
+\begin{letter}{The Editor-in-Chief\\
+\textit{Knowledge-Based Systems}}
+
+\opening{Dear Editor,}
+
+We are pleased to submit our manuscript \textbf{``Residual Drift Detectors under a Common False-Alarm Budget: A Calibrated Comparison with a Wasserstein Detector''} by Paolo Grazieschi, Romeo Silvestri, Massimo Vecchio, Mattia Antonini and Fabio Antonelli, for consideration as a research article in \textit{Knowledge-Based Systems}.
+
+Deployed regression models are often monitored by passing their prediction errors to a drift detector, but published comparisons of such detectors rarely control how often each one raises false alarms. A detector tuned to alarm more often will tend to look faster and more sensitive, so differences in delay and detection rate can reflect operating points rather than test statistics. Our manuscript addresses this problem in three ways.
+
+\begin{itemize}
+\item \textbf{A common calibration protocol.} We carry the false-alarm matching of control charts over to streaming detectors with different statistics and parameters: each detector is tuned to one declared false-alarm budget on drift-free streams, audited on held-out null streams and compared against a placebo detection rate, with paired statistical tests.
+\item \textbf{An explanation of where each statistic is blind.} Detectors that track the mean of the monitored signal cannot see changes that preserve that mean, and the Kolmogorov--Smirnov distance is capped by the share of probability mass that a local change moves, whereas the Wasserstein distance grows with how far that mass moves.
+\item \textbf{A calibrated Wasserstein detector} that combines the empirical $1$-Wasserstein distance between older and recent squared residuals, a rolling interquartile-range score and hysteresis, together with separately calibrated ablations, sensitivity sweeps, repeated calibration and batch-end testing.
+\end{itemize}
+
+Under this protocol, the Wasserstein detector is the only one of four detectors (with ADWIN, KSWIN and Page-Hinkley) that detects 96--100\% of changes in all seven abrupt synthetic scenarios, while each baseline falls to placebo level in the scenario that targets the weakness of its statistic. We report the trade-offs as well: ADWIN reacts sooner to most functional changes, and KSWIN reacts sooner to a mean-preserving noise change. An illustrative application to day-ahead soil-moisture forecasting, in which a documented upgrade of an upstream data product supplies a real change with a known date, shows that the Wasserstein detector raises the fewest alarms and stays within budget, and that its rolling reference can absorb a slow, months-long rise in residuals. We discuss this limitation openly and suggest pairing the detector with a fixed-reference level check where persistent degradation must be flagged.
+
+We believe the manuscript suits \textit{Knowledge-Based Systems} because it concerns the reliability of learning systems after deployment, an area in which the journal publishes regularly, including work on concept drift. The results give practitioners guidance on when a distributional detector is preferable to a mean-based one, and give researchers a protocol for comparing detectors on equal terms on coverage, delay and alarm volume.
+
+The code (BSD 3-Clause licence), together with the retrieved soil-moisture and weather series and the soil-moisture case outputs, is publicly available at
+\begin{center}
+\url{https://github.com/FBK-OpenIoT/calibrated-wasserstein-drift/releases/tag/v0.1.0}
+\end{center}
+and the synthetic streams are regenerated from fixed seeds, so every reported result can be reproduced.
+
+We confirm that this manuscript is original, has not been published elsewhere and is not under consideration by any other journal. All authors have approved the manuscript and agree with its submission. The authors declare no competing interests, and the work received no specific funding. The use of generative AI tools during manuscript preparation is declared in the manuscript, as required by the journal's policy.
+
+Thank you for considering our submission. We look forward to hearing from you.
+
+\closing{Yours sincerely,}
+
+\end{letter}
+\end{document}

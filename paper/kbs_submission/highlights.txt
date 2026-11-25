@@ -1,0 +1,7 @@
+Highlights
+
+- Drift detectors for regression compared under one calibrated false-alarm budget
+- Calibration on drift-free streams; audit on held-out null streams
+- Each baseline falls to placebo on a change its test statistic cannot see
+- Wasserstein detector finds 96–100% of changes in all seven synthetic scenarios
+- Real soil-moisture case shows how budget and rolling reference shape alarms
